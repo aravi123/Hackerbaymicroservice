@@ -23,7 +23,7 @@ app.use(responsetime((req,res,time)=>{
     sucesslog.info("Response time for"+req.url+"is"+time);
 }));
 
-app.use('/',routes);
+app.use('/api',routes);
 
 app.use((req,res)=>{
     errorlog.error("404 error from\t"+req.url);
