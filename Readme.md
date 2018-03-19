@@ -59,10 +59,9 @@ API available at: http://localhost:3000/api/
 
 | Sl.No | Method Name        | Method Type                               | Parameters                                                            | URL                                               | 
 |-------|:-------------      :|------------------------------------------:|----------------------------------------------------------------------:|--------------------------------------------------:|
-| 1     | login              | POST                                      | username (String) and password (Password)                             | http://localhost:3000/api/v1/login                |
-| 2     | validate           | POST                                      | token (JWT token)                                                     | http://localhost:3000/api/v1/validate             |
-| 3     | patch              | POST (Content-Type: application/json)     | json (json Object), patch (Json Patch Object) and token (JWT token)   | http://localhost:3000/api/v1/applyPatch           |
-| 4     | generatethumbnail  | POST                                      | image (Image URL) and token (JWT token)                               | http://localhost:3000/api/v1/getThumbnail    |
+| 1     | login              | POST                                      | username (String) and password (Password)                             | http://localhost:3000/api/login                |
+| 2    | patch              | POST (Content-Type: application/json)     | json (json Object), patch (Json Patch Object) and token (JWT token)   | http://localhost:3000/api/patch           |
+| 3     | generatethumbnail  | POST                                      | image (Image URL) and token (JWT token)                               | http://localhost:3000/api/generatethumbnail    |
 
 
 ### Examples
